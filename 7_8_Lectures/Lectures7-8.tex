@@ -70,7 +70,7 @@ where $\textrm{tr}(\cdot)$ is the trace operator.  The decomposition is fairly s
 
 According to model (\ref{equation:Regression-model}) the vector of outcome variables is a multivariate normal with parameters $X\beta$ and $\sigma^2 \mathbb{I}_n$ and thus has a p.d.f given by
 \begin{equation}\label{equation:Regression-pdf}
-f( Y | \beta , X ) = \frac{1}{(2 \pi \sigma)^{k/2}} \exp \left( -\frac{1}{2 \sigma^2} (Y - X \beta)’ (Y-X\beta) \right).  
+f( Y | \beta , X ) = \frac{1}{(2 \pi \sigma^2)^{n/2}} \exp \left( -\frac{1}{2 \sigma^2} (Y - X \beta)’ (Y-X\beta) \right).  
 \end{equation}
 This is true, regardless of whether we have very many covariates or not. For a fixed realization of the data, define the likelihood function, L($\beta$; (Y,X)), as the value attained by the p.d.f. in (\ref{equation:Regression-pdf}) at different values of the data ($Y, X$); that is 
 \[ L(\beta, (Y,X)) \equiv f(Y | \beta, X ). \]
@@ -145,13 +145,16 @@ Completing the square and ignoring all the terms that do not have $\beta$ on the
 \end{equation*}
 This implies that:
 \begin{equation}
-\beta | Y, X \sim \mathcal{N}_{k} \left(  \left( V + X’X \right)^{-1} (X^{\prime} Y+V^{-1}\beta_0) \: , \:   \sigma^2 \left(V + X^{\prime} X \right)^{-1}   \right).
+\beta | Y, X \sim \mathcal{N}_{k} \left(  \left( V + X’X \right)^{-1} (X^{\prime} Y+V\beta_0) \: , \:   \sigma^2 \left(V + X^{\prime} X \right)^{-1}   \right).
 \end{equation}
 This means that the Bayesian Estimator of $\beta$ given the Gaussian prior $\pi(\beta)$ is:
 
 \[ \widehat{\beta}_{\textrm{Bayes}} \equiv \left( V + X^{\prime} X \right)^{-1} \left( X^{\prime} Y + V \beta_0 \right). \]
 
-\noindent The posterior mean estimator is well defined regardless the number of covariates.\footnote{If $V$ is positive definite, then the matrix $V+ X’X$ is positive definite as well, and thus invertible.} The posterior mean estimator for $V= \lambda \mathbb{I}_{k}$ is called the Ridge estimator
+\noindent The posterior mean estimator is well defined regardless the number of
+covariates.\footnote{If $V$ is positive definite, then the matrix $V+ X’X$ is
+  positive definite as well, and thus invertible.} The posterior mean estimator
+for $V= \lambda \mathbb{I}_{k}$ and $\beta_0 = 0$ is called the Ridge estimator
 
 \[  \widehat{\beta}_{\textrm{Ridge}} \equiv (X’X + \lambda \mathbb{I}_{k})^{-1} X’Y, \]
 
@@ -181,7 +184,7 @@ The F.O.C are
 In this section we will show that the OLS estimator minimizes risk among the class of all unbiased estimators, provided some regularity conditions are met. 
 
 \begin{proposition}(Optimality of OLS) Consider the Normal regression model in (\ref{equation:Regression-model}). Let $\widehat{\beta}$ be an estimator of $\beta$ for which
-\[ \frac{\partial}{\partial \beta} \int_{\mathbb{R}^{k}} \widehat{\beta} f(Y | \beta; X ) dY = \int_{\mathbb{R}^{k}} \widehat{\beta} \frac{\partial}{\partial \beta} f(Y | \beta , X) dY,   \]
+\[ \frac{\partial}{\partial \beta} \int_{\mathbb{R}^{k}} \widehat{\beta} f(Y | \beta; X ) dY = \int_{\mathbb{R}^{k}} \widehat{\beta} \Big ( \frac{\partial}{\partial \beta} f(Y | \beta , X) \Big)’ dY,   \]
 at any $\beta$ in the parameter space. If $\widehat{\beta}$ is unbiased, then
 \[ \mathbb{V}_{\beta} ( \widehat{\beta} ) - \mathbb{V}_{\beta} (\widehat{\beta}_{\textrm{OLS}})  \]
 is positive semi-definite, implying that the mean squared error of $\widehat{\beta}$ is larger than that of the OLS everywhere on the parameter space. 
@@ -190,9 +193,9 @@ is positive semi-definite, implying that the mean squared error of $\widehat{\be
 \begin{proof}
 We would like show  that for any $c \in \mathbb{R}^{k}$, $c \neq 0$
 \[ c’ \left( \mathbb{V}_{\beta} ( \widehat{\beta} ) - \mathbb{V}_{\beta} (\widehat{\beta}_{\textrm{OLS}}) \right) c \geq 0. \]
-\end{proof}
+
 To do this, we start by computing the variance of $c’\widehat{\beta} - c’ \widehat{\beta}_{\textrm{OLS}}$, 
-which by definition of variance has to be nonegative. Since $\widehat{\beta}$ and $\widehat{\beta}_{\textrm{OLS}}$ are both unbiased
+which by definition of variance, has to be nonegative. Since $\widehat{\beta}$ and $\widehat{\beta}_{\textrm{OLS}}$ are both unbiased
 \begin{eqnarray*}
 \mathbb{V}_{\beta} \left( c’\widehat{\beta} - c’ \widehat{\beta}_{\textrm{OLS}} \right)&=&  \mathbb{V}_{\beta} (c’\widehat{\beta}) + \mathbb{V}_{\beta} (c’\widehat{\beta}_{\textrm{OLS}}) - 2 \textrm{cov}_{\beta} ( c’\widehat{\beta} , c’ \widehat{\beta}_{\textrm{OLS}}  ),  \\
 &&  \textrm{(since $\textrm{Var}(X-Y) = \textrm{Var}(X) + \textrm{Var}(Y)- 2 \textrm{cov}(X,Y)$)}\\
@@ -220,7 +223,7 @@ Consequently
 Hence, 
 \[ 0 \leq \mathbb{V}_{\beta} \left( c’\widehat{\beta} - c’ \widehat{\beta}_{\textrm{OLS}} \right) = c’ \mathbb{V}_{\beta}(\widehat{\beta}) c - c’ \mathbb{V}_{\beta}(\widehat{\beta}_{\textrm{OLS}}) c,  \]
 for every $\beta$. The result then follows. 
-
+\end{proof}
 
 \subsection{Suboptimality of the OLS estimator}
 
@@ -267,11 +270,11 @@ Therefore,
 \[  \mathbb{E}_{\mathbb{P}_{\beta}} \left[ ||\widehat{\beta}_{JS} -\beta ||^2 \right] =  \mathbb{E}_{\mathbb{P}_{\beta}}  \left[ \frac{(k-2)^2}{|| \widehat{\beta}_{\textrm{OLS}} ||^2} \right] - k + 2 \mathbb{E}_{\mathbb{P}_{\beta}} \left[ (\widehat{\beta}_{\textrm{JS}} -\beta)’( \widehat{\beta}_{\textrm{OLS}}- \beta)  \right]. . \]
 Also
 \begin{eqnarray*}
-\mathbb{E}_{\mathbb{P}_{\beta}} \left[ (\widehat{\beta}_{\textrm{JS}} - \beta)’( \widehat{\beta}_{\textrm{OLS}}- \beta)  \right] &=& \textrm{Cov}( \widehat{\beta}_{\textrm{JS}},\widehat{\beta}_{OLS} ). 
+\mathbb{E}_{\mathbb{P}_{\beta}} \left[ (\widehat{\beta}_{\textrm{JS}} - \beta)’( \widehat{\beta}_{\textrm{OLS}}- \beta)  \right] &=& \sum_{j=1}^{k} \textrm{Cov}( \widehat{\beta}^j_{\textrm{JS}},\widehat{\beta}^j_{OLS} ). 
 \end{eqnarray*}
 and the last term can be shown to equal
 \begin{eqnarray*}
-\sum_{j=1}^{K} \mathbb{E}_{\mathbb{P}_{\beta}} \left[ \frac{\partial \widehat{\beta}^i_{JS} }{\partial \widehat{\beta}^i_{\textrm{OLS}}} \right] &=& K - \mathbb{E}_{\mathbb{P}_{\beta}} \left[ \frac{k  (k-2)}{||\widehat{\beta}_{\textrm{OLS}} ||^2} \right] + \mathbb{E}_{\mathbb{P}_{\beta}} \left[ \frac{2(k-2)}{||\widehat{\beta}_{\textrm{OLS}} ||^2} \right]’ \\
+\sum_{j=1}^{k} \mathbb{E}_{\mathbb{P}_{\beta}} \left[ \frac{\partial \widehat{\beta}^j_{JS} }{\partial \widehat{\beta}^j_{\textrm{OLS}}} \right] &=& K - \mathbb{E}_{\mathbb{P}_{\beta}} \left[ \frac{k  (k-2)}{||\widehat{\beta}_{\textrm{OLS}} ||^2} \right] + \mathbb{E}_{\mathbb{P}_{\beta}} \left[ \frac{2(k-2)}{||\widehat{\beta}_{\textrm{OLS}} ||^2} \right]’ \\
 &=&  K - \mathbb{E}_{\mathbb{P}_{\beta}} \left[ \frac{(k-2)^2}{||\widehat{\beta}_{\textrm{OLS}} ||^2} \right] 
 \end{eqnarray*}
 Therefore,

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.5.24)  4 OCT 2018 09:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.5.24)  11 OCT 2018 23:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**Lectures7-8.tex
-(./Lectures7-8.tex
+**ProblemSet5.tex
+(./ProblemSet5.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
@@ -1116,8 +1116,8 @@ File: pst-func.tex 2015/05/20 v0.81 `PST-func' (hv)
 \c@assumption=\count194
 \c@example=\count195
 \c@prproblem=\count196
-) (./Lectures7-8.aux)
-\openout1 = `Lectures7-8.aux'.
+) (./ProblemSet5.aux)
+\openout1 = `ProblemSet5.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
@@ -1150,17 +1150,14 @@ LaTeX Info: Redefining \ref on input line 8.
 LaTeX Info: Redefining \pageref on input line 8.
 LaTeX Info: Redefining \nameref on input line 8.
 
-(./Lectures7-8.out) (./Lectures7-8.out)
+(./ProblemSet5.out) (./ProblemSet5.out)
 \@outlinefile=\write4
-\openout4 = `Lectures7-8.out'.
-
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
+\openout4 = `ProblemSet5.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: dvips
 *geometry* verbose mode - [ preamble ] result:
@@ -1195,364 +1192,103 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-[1
 
-]
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 32.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/ot1lmr.fd
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 14.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 32.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 14.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 32.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 14.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 32.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 14.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 32.
+(Font)              <10.95> on input line 14.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 32.
+(Font)              <8> on input line 14.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 32.
-LaTeX Font Info:    Try loading font information for U+msa on input line 32.
+(Font)              <6> on input line 14.
+LaTeX Font Info:    Try loading font information for U+msa on input line 14.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 32.
+LaTeX Font Info:    Try loading font information for U+msb on input line 14.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 38.
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 15.
+
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 21.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+
+ []
 
 
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 38.
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+[1
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 64--66
+
+ []
 
 
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 43.
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 43.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 52.
+ []
 
 [2]
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 56.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 62.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 62.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 63.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 63.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 73.
-
-[3]
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 80.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 81.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 83.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 83.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 83.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 87.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 87.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 92.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 92.
-
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 94.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 94.
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 98.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 98.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 98.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 98.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 98.
-
-
-Overfull \hbox (6.17517pt too wide) detected at line 99
-[]\U/msb/m/n/10.95 V[]\OT1/lmr/m/n/10.95 ([]) = \U/msb/m/n/10.95 E[]\OT1/lmr/m/
-n/10.95 [([] \OMS/lmsy/m/n/10.95 ^^@ \OML/lmm/m/it/10.95 ^^L\OT1/lmr/m/n/10.95 
-)([] \OMS/lmsy/m/n/10.95 ^^@ \OML/lmm/m/it/10.95 ^^L\OT1/lmr/m/n/10.95 )[]] = (
-\OML/lmm/m/it/10.95 X[]X\OT1/lmr/m/n/10.95 )[]\OML/lmm/m/it/10.95 X[]\U/msb/m/n
-/10.95 E[]\OT1/lmr/m/n/10.95 [(\OML/lmm/m/it/10.95 Y \OMS/lmsy/m/n/10.95 ^^@ \O
-ML/lmm/m/it/10.95 X^^L\OT1/lmr/m/n/10.95 )(\OML/lmm/m/it/10.95 Y \OMS/lmsy/m/n/
-10.95 ^^@ \OML/lmm/m/it/10.95 X^^L\OT1/lmr/m/n/10.95 )[]]\OML/lmm/m/it/10.95 X\
-OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 X[]X\OT1/lmr/m/n/10.95 )[] = \OML/lmm/m/
-it/10.95 ^^[[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 X[]X\OT1/lmr/m/n/10.95 )[
-]\OML/lmm/m/it/10.95 :
- []
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 101.
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
-
- []
-
-[5]
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 141.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 144.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 148.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 156.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 159.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 159.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 163.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 163.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 164.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 164.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 164.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 165.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 168.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 168.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 168.
-
-[6]
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 179.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 179.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 179.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 187.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 195.
-
-[7]
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 197.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 197.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 200.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 200.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 200.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 200.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 200.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 200.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 202.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 202.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 202.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 202.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 204.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 204.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 204.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 204.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 207.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 207.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 209.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 212.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 212.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 212.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 213.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 213.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 214.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 214.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 216.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 218.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 219.
-
-[8]
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 224.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 224.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 224.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 224.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 232.
-
-[9]
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 255.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 258.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 260.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 265.
-
-[10]
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 270.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 273.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 277.
-
-[11]
-No file Lectures7-8.bbl.
+No file ProblemSet5.bbl.
 
 Package caption Warning: Unused \captionsetup[subfloat] on input line 25.
 See the caption package documentation for explanation.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 290.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 290.
-(./Lectures7-8.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 290.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 290.
-Package rerunfilecheck Info: File `Lectures7-8.out' has not changed.
-(rerunfilecheck)             Checksum: CF2D15A5F7C6F09712EE48F9466E4188;459.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 290.
+[3]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 97.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 97.
+ (./ProblemSet5.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 97.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 97.
+Package rerunfilecheck Info: File `ProblemSet5.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 97.
  )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 9 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 22533 strings out of 493090
- 403998 string characters out of 6134868
- 571240 words of memory out of 5000000
- 25562 multiletter control sequences out of 15000+600000
- 98598 words of font info for 79 fonts, out of 8000000 for 9000
+ 22494 strings out of 493090
+ 403696 string characters out of 6134868
+ 567240 words of memory out of 5000000
+ 25547 multiletter control sequences out of 15000+600000
+ 32661 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,12n,96p,705b,471s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,7n,96p,705b,533s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Lectures7-8.dvi (11 pages, 51796 bytes).
+Output written on ProblemSet5.dvi (3 pages, 17252 bytes).
